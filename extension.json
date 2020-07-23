@@ -1,0 +1,25 @@
+{
+  "name": "Voltage Start and End",
+  "apiVersion": "1.0.0",
+  "author": "Jonathan Reichelt Gjertsen",
+  "version": "1.0.0",
+  "description": "Provides the start and end voltages.",
+  "extensions": {
+    "Voltage Start and End": {
+      "type": "AnalogMeasurement",
+      "entryPoint": "VoltageStartAndEnd.VoltageStartAndEnd",
+      "metrics": {
+        "v_start": {
+          "name": "Start voltage",
+          "notation": "V<sub>start</sub>",
+          "units": "V"
+        },
+        "v_end": {
+          "name": "End voltage",
+          "notation": "V<sub>end</sub>",
+          "units": "V"
+        }
+      }
+    }
+  }
+}
